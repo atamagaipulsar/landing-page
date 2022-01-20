@@ -11,6 +11,8 @@ body {
 .First-of-four {
     display: flex;
     flex-direction: column;
+    background-color: #1f2937;
+    padding: 10px;
 }
 
 .header {
@@ -20,4 +22,24 @@ body {
 
 .header-too {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+.books {
+    height: 50px;
+    width: 50px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 5px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
 }
