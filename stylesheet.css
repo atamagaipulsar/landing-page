@@ -1,0 +1,23 @@
+img {
+    height: 200px;
+    width: 200px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.First-of-four {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-too {
+    display: flex;
+}
